@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Example</title>
+    
+<!--<style>html { font-size: 15px; }
+
+	body { font-family: sans-serif; }
+
+	#controlPanel { float: left;
+     padding-top: 2rem; 
+}
+
+	#traffic-light { height: 36.6667rem; 
+        width: 13.3333rem; 
+        float: left; 
+        background-color: #333; 
+        border-radius: 2.6667rem; 
+        margin: 2rem 0; 
+        padding: 1.3333rem; 
+    }
+
+	.bulb { height: 10rem;
+     width: 10rem; 
+     background-color: #111111; 
+     border-radius: 50%; 
+     margin: 1.6667rem auto; 
+     transition: background 3000ms; 
+ }
+ </style>-->
+    <link rel="stylesheet" href="./CSS/trafficlight.css">
+</head>
+
+<body>
+    <div id="controlPanel">
+        <h1 class="button" id="stopButton">Stop</h1>
+        <h1 class="button" id="slowButton">Slow</h1>
+        <h1 class="button" id="goButton">Go</h1>
+    </div>
+    <div id="traffic-light">
+        <div class="bulb" id="stopLight"></div>
+        <div class="bulb" id="slowLight"></div>
+        <div class="bulb" id="goLight"></div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
